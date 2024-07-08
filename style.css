@@ -53,13 +53,22 @@ body{
     border-radius: 9px;
 }
 .snake{
-    background-color: #e71bf7;
+    background: linear-gradient(251deg, #ffafaf, transparent);
     border: 2px solid black;
     border-radius: 8px;
 }
 .head{
     border: 2px solid black;
     border-radius: 7px;
-    background: linear-gradient(40deg, #f516a0, #30fff5);
+    background: linear-gradient(40deg, #fdc5c5, #f55a1a);
 
+}
+@media screen and (max-width:930px) {
+    .heading{
+        font-size: 13px;
+    }
+    .scores{
+        font-size: 20px;
+        margin-right: 22px;
+    }
 }
